@@ -1,4 +1,8 @@
 # backendtask
+A simple server to handle login data of users.
+Handles CRUD requests, gives response to id, filter(on the basis of branch) queries and prevents duplicacy in the database (on the basis of uniqueness of roll nos.).
+
+
 I have used Nodejs for server side and Mongodb as the database and express to manage routes.
 All the api testing is done in Postman.
 
@@ -11,8 +15,6 @@ model.js under models folder contains our schema -->
     "branch": ",
     "userid": 
 }
-
-.env file has the DATABASE_URL i used to connect to mongodb
 
 the server can be started using 'npm start' with all the necessary preq. installed.
 
